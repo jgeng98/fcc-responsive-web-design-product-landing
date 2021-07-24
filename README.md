@@ -8,7 +8,7 @@ User Story #1: My product landing page should have a header element with a corre
 
 User Story #2: I can see an image within the header element with a corresponding `id="header-img"`. A company logo would make a good image here.
 
-User Story #3: Within the #header element I can see a nav element with a corresponding `id="nav-bar"`.
+User Story #3: Within the `#header` element I can see a nav element with a corresponding `id="nav-bar"`.
 
 User Story #4: I can see at least three clickable elements inside the `nav` element, each with the class `nav-link`.
 
