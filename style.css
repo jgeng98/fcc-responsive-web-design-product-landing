@@ -91,3 +91,28 @@ body {
   margin: auto;
   padding: 50px;
 }
+
+footer {
+  background-color: #dddddd;
+  max-width: 80%;
+  height: 80px;
+  margin: auto;
+  position: relative;
+}
+
+#footer-links {
+  float: right;
+  margin-top: 20px;
+}
+
+.foot-nav-link {
+  margin-right: 20px;
+}
+
+#copyright {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  margin-right: 20px;
+  margin-bottom: 15px;
+}
