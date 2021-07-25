@@ -65,9 +65,9 @@ body {
   background-color: #eeeeee;
 }
 
-@media (max-width: 50%) {
+@media (max-width: 1000px) {
   body {
-    padding-top: 0px;
+    padding-top: 150px;
   }
 }
 
