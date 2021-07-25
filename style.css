@@ -113,6 +113,7 @@ body {
   margin: auto;
   max-width: 1000px;
   padding: 30px;
+  align-items: center;
 }
 
 li {
@@ -151,6 +152,17 @@ li {
 
 .button:hover {
   background-color: #ffa500;
+}
+
+@media (max-width: 700px) {
+  #pricing {
+    flex-direction: column;
+  }
+
+  #pricing div {
+    width: 100%;
+    max-width: 300px;
+  }
 }
 
 footer {
