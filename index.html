@@ -11,12 +11,13 @@
         src="https://cdn.freecodecamp.org/testable-projects-fcc/images/product-landing-page-logo.png"
         alt="Original Trombones logo"
       />
-      <nav id="nav-bar">
+      <div id="nav-bar">
         <a class="nav-link" href="#features">Features</a>
         <a class="nav-link" href="#how-it-works">How It Works</a>
         <a class="nav-link" href="#pricing">Pricing</a>
-      </nav>
+      </div>
     </header>
+
     <main>
       <h1>Handcrafted, home-made masterpieces</h1>
 
@@ -28,27 +29,34 @@
           placeholder="Enter your email address"
           required
         />
+        <br />
         <input type="submit" name="submit" id="submit" value="Get Started" />
       </form>
 
       <div id="features">
-        <h2 class="features-header">Premium Materials</h2>
-        <p class="features-desc">
-          Our trombones use the shiniest brass which is sourced locally. This
-          will increase the longevity of your purchase.
-        </p>
+        <div class="feature">
+          <h2 class="features-header">Premium Materials</h2>
+          <p class="features-desc">
+            Our trombones use the shiniest brass which is sourced locally. This
+            will increase the longevity of your purchase.
+          </p>
+        </div>
 
-        <h2 class="features-header">Fast Shipping</h2>
-        <p class="features-desc">
-          We make sure you receive your trombone as soon as we have finished
-          making it. We also provide free returns if you are not satisfied.
-        </p>
+        <div class="feature">
+          <h2 class="features-header">Fast Shipping</h2>
+          <p class="features-desc">
+            We make sure you receive your trombone as soon as we have finished
+            making it. We also provide free returns if you are not satisfied.
+          </p>
+        </div>
 
-        <h2 class="features-header">Quality Assurance</h2>
-        <p class="features-desc">
-          For every purchase you make, we will ensure there are no damages or
-          faults and we will check and test the pitch of your instrument.
-        </p>
+        <div class="feature">
+          <h2 class="features-header">Quality Assurance</h2>
+          <p class="features-desc">
+            For every purchase you make, we will ensure there are no damages or
+            faults and we will check and test the pitch of your instrument.
+          </p>
+        </div>
       </div>
 
       <div id="how-it-works">
@@ -111,9 +119,9 @@
 
       <footer id="footer">
         <nav id="footer-links">
-          <a class="nav-links" href="#">Privacy</a>
-          <a class="nav-links" href="#">Terms</a>
-          <a class="nav-links" href="#">Contact</a>
+          <a href="#">Privacy</a>
+          <a href="#">Terms</a>
+          <a href="#">Contact</a>
         </nav>
 
         <p id="copyright">Copyright 2016, Original Trombones</p>
