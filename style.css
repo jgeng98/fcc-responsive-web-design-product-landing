@@ -71,6 +71,23 @@ body {
   }
 }
 
-#features {
-  text-align: center;
+.feature {
+  text-align: left;
+  margin: auto;
+  max-width: 1000px;
+}
+
+.features-desc {
+  margin-top: 0px;
+}
+
+.features-header {
+  margin-bottom: 0px;
+  padding-top: 30px;
+}
+
+#video {
+  display: block;
+  margin: auto;
+  padding: 50px;
 }
