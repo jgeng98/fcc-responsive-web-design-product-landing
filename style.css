@@ -92,6 +92,51 @@ body {
   padding: 50px;
 }
 
+#pricing {
+  display: flex;
+  margin: auto;
+  max-width: 1000px;
+  padding: 30px;
+}
+
+li {
+  list-style: none;
+  margin-right: 30px;
+  padding: 5px;
+}
+
+#tenor-trombone,
+#bass-trombone,
+#valve-trombone {
+  border: 1px solid black;
+  border-radius: 3px;
+  margin: 10px;
+  width: 33%;
+  text-align: center;
+}
+
+.product {
+  background-color: #dddddd;
+  margin: 0px;
+  padding: 15px;
+  text-transform: uppercase;
+  font-size: 1em;
+}
+
+.button {
+  margin: 15px;
+  background-color: #f1c40f;
+  text-transform: uppercase;
+  border: 0;
+  width: 80px;
+  height: 40px;
+  font-size: 1em;
+}
+
+.button:hover {
+  background-color: #ffa500;
+}
+
 footer {
   background-color: #dddddd;
   max-width: 80%;
