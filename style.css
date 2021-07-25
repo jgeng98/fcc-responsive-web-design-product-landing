@@ -75,15 +75,31 @@ body {
   text-align: left;
   margin: auto;
   max-width: 1000px;
+  height: 125px;
+  display: flex;
+  align-items: center;
 }
 
-.features-desc {
-  margin-top: 0px;
+.icon {
+  color: #ff8c00;
+  width: 20%;
+  text-align: center;
+  font-size: 3em;
+  padding: 0;
+  margin: 0;
 }
 
-.features-header {
-  margin-bottom: 0px;
-  padding-top: 30px;
+.feature-group {
+  width: 80%;
+  padding: 0;
+  margin: 0;
+  align-items: center;
+}
+
+.feature-group h2,
+.feature-group p {
+  padding: 0;
+  margin: 0;
 }
 
 #video {
